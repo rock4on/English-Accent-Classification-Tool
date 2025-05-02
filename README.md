@@ -3,6 +3,8 @@
 ## Purpose
 This tool analyzes spoken English audio to predict the speaker's regional accent (e.g., American, British, Indian). It processes audio from URLs (like YouTube, Vimeo) or uploaded files and uses a pre-trained SpeechBrain model for classification. It's intended for internal use, potentially for evaluating spoken English during hiring processes.
 
+## Collab Link:   https://colab.research.google.com/drive/1e3gf3OIhh1ioY3CRa3cvfKyGCRonx12k?authuser=0#scrollTo=9gRmCj56aTSO
+
 ## Prerequisites
 * **Environment:** Designed to run in Google Colab.
 * **Model Download:** Requires approximately 1.3 GB download for the classification model (`Jzuluaga/accent-id-commonaccent_xlsr-en-english` from Hugging Face Hub) upon first run (Cell 3). The model is cached in `/content/models_cache`.
